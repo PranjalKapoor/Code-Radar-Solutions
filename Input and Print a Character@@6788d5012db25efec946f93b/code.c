@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main() {
-    char num ;
-    scanf("%s",&num);
-    printf("You entered: %s",num);
+    char var ;
+    scanf("%c",&var);
+    printf("You entered: %c",var);
     return 0;
 }
