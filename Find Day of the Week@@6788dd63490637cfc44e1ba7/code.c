@@ -19,6 +19,7 @@ int main(){
         case '7': printf("Saunday");
                 break;
         default: printf("Invalid");
+                break;
             }
         return 0;
 }
