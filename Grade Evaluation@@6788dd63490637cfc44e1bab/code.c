@@ -3,18 +3,17 @@ int main(){
     char alphabet;
     scanf("%c",&char);
     switch(alphabet) {
-        case 'A': printf("Excellent\n");
+        case 'A': printf("Excellent \n");
                     break;
-        case 'B': printf("Good\n");
+        case 'B': printf("Good \n");
                     break;
-        case 'C': printf("Average\n");
+        case 'C': printf("Average \n");
                     break;
-        case 'D': printf("Below Average\n");
+        case 'D': printf("Below Average \n");
                     break;
-        case 'F': printf("Fail\n");
+        case 'F': printf("Fail\ n");
                     break;
-        default: printf("Invalid grade\n");
-                    break;
+        default: printf("Invalid grade \n");
     }
     return 0;
 }
