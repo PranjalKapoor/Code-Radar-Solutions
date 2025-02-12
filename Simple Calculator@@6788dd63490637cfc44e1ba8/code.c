@@ -4,22 +4,17 @@ int main(){
     int num1,num2;
     char character;
     scanf("%d%d",&num1,&num2);
-    scanf(" %c ",&character);
-    if(character == '+'){
-        printf("%d",(num1+num2));
-    }
-    else if(character == '-'){
-        printf("%d",(num1-num2));
-    }
-    else if(character == '*'){
-        printf("%d",(num1*num2));
-    }
-    else if(character == '/'){
-        printf("%d",(num1/num2));
-    }
-    else{
-        printf("error");
-    }
+    scanf("%c",&character);
+    switch(character){
+    case '+': printf("%d",(num1+num2));
+            break;
+    case '-': printf("%d",(num1-num2));
+            break;
+    case '*': printf("%d",(num1*num2));
+            break;
+    case '/': printf("%d",(num1/num2));
+            break;
+    default: printf("error");
     return 0;
 
 }
