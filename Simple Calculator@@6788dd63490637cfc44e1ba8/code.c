@@ -17,7 +17,7 @@ int main(){
             break;
     case '/': 
             if(num2==0){
-                 printf("%d",(num1/num2));}
+                 printf("error");}
             else{
                 printf("%d",(num1/num2));
             }
