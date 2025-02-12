@@ -20,7 +20,6 @@ int main(){
                  printf("%d",(num1/num2));}
             else{
                 printf("%d",(num1/num2));
-                break;
             }
 }
     return 0;
