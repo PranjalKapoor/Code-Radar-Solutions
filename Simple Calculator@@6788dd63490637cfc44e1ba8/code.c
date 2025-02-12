@@ -8,12 +8,9 @@ int main(){
     printf("%d",(num1+num2));
     printf("%d",(num1-num2));
     printf("%d",(num1*num2));
-    if(character == '/'){
-        printf("%d",(num1/num2));
-    }
-    else{
-        printf("error");
-    }
+    printf("%d",(num1/num2));
+    printf("error");
+    
     return 0;
 
 }
